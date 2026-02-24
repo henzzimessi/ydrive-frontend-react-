@@ -95,7 +95,7 @@ const ShiftForm = ({
       <div className="flex items-center justify-end">
         <button
           type="submit"
-          className="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-slate-800 disabled:cursor-not-allowed disabled:bg-slate-300"
+          className="rounded-full bg-brand px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-brand/90 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:text-slate-500"
           disabled={!canSubmit}
         >
           Add shift

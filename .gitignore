@@ -1,2 +1,4 @@
 node_modules/
 # WORKFLOW.md
+dist/
+.vscode/
